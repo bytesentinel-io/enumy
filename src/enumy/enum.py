@@ -15,12 +15,21 @@ class Enumy:
         else:
             self.__value = value
 
+    def get(self) -> None:
+        return self.__value
+
     def check_type(self, type: type) -> bool:
         if type is self.__allowed_type:
             return True
         else:
             return False
-        
+    
+    def check(self, value, type: type) -> bool:
+        if type(value) == type:
+            return True
+        else:
+            return False
+
     def check_value(self, value: str) -> bool:
         if value in self.__allowed_values:
             return True
