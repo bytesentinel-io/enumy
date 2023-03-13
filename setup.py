@@ -7,7 +7,7 @@ SRC_DIR = "src"
 
 setup(
     name="enumy",
-    version="1.0.1",
+    version="1.0.2",
     author="ByteSentinel",
     author_email="info@bytesentinel.io",
     description="Module to set predefined allowed values for a variable",
