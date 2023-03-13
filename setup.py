@@ -10,7 +10,7 @@ setup(
     version="1.0.0",
     author="ByteSentinel",
     author_email="info@bytesentinel.io",
-    description="Small module to create enum variables",
+    description="Module to set predefined allowed values for a variable",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/bytesentinel/enumy",
