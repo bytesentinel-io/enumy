@@ -1,6 +1,8 @@
 # Enumy
 The problem with Python's "Enum" module is that it is not a reasonable way to restrict variables to a predefined set of values.
 
+Latest version: `v1.0.2`
+
 ## Installation
 ```shell
 pip install --user enumy
