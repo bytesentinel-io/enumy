@@ -6,7 +6,14 @@ The problem with Python's "Enum" module is that it is not a reasonable way to re
 pip install --user enumy
 ```
 
-## First start
+## Special methods
+### `check_type`
+Check if a variable matches a certain data type.
+
+### `check_value`
+Check if a value is present in the allowed values.
+
+## Example
 ```python
 from enumy import Enumy
 
