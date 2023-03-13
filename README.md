@@ -10,8 +10,17 @@ pip install --user enumy
 ### `check_type`
 Check if a variable matches a certain data type.
 
+```python
+var.check_type(str)
+```
+
 ### `check_value`
 Check if a value is present in the allowed values.
+
+```python
+text = "ByteSentinel"
+var.check_value(text)
+```
 
 ## Example
 ```python

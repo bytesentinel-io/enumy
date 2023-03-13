@@ -30,7 +30,7 @@ class Enumy:
         else:
             return False
 
-    def check_value(self, value: str) -> bool:
+    def check_value(self, value) -> bool:
         if value in self.__allowed_values:
             return True
         else:
